@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>My Test Exa</title>
+    <script language="javascript" type="text/javascript">
+
+        function pb() {
+            var a = document.getElementsByTagName("p");
+            var b = a[0];
+            b.firstChild.data = "Once you know the standard DOM, as defined by the W3C, is a workable model for today’s web application, what are you really getting from that information? Essentially, when a (X)HTML page is loaded and rendered by a browser, a document tree is constructed in memory that represents the displayed document. The document tree provides an internal layout of the document that can be manipulated and updated. The document object displayed in Figure earlier in the chapter is the reference to this internal document tree and itself implements a document interface defined by the W3C.";
+
+        }
+        function pb1() {
+            var a = document.getElementsByTagName("li");
+            var b =a[document.getElementById("t1").value-1];
+            b.firstChild.data = document.getElementById("t2").value;
+
+        }
+    </script>
+  </head>
+<body>
+<h1>This is My Heading</h1>
+<p>co-ordinate with the academic section to ensure that the necessary skills are imparted to students, arrange industry visits, invite business leaders and professionals to interact with students, and interface with alumni to identify emerging opportunities. 
+The culmination of these efforts is Placement Facilitation and Summer Internships. The objective of Placement Facilitation at Alliance is to provide opportunities to students in line</p>
+<ul>
+<li>Rama</li>
+<li>Gopal</li>
+<li>Rabi</li>
+<li>Shyam</li>
+</ul>
+<input type="button" value="EDIT" onclick="return pb()" /><br />
+Give LI No:<input type="text" id="t1" /><br />
+Give LI Text:<input type="text" id="t2" /><br />
+<input type="button" value="change" onclick="return pb1()" />
+</body>
+</html>
+

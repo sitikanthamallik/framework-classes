@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>My Test Exa</title>
+    <script language="javascript" type="text/javascript">
+        function chhena() {
+            var a = document.createTextNode("Serious");
+            var b = document.createElement("li");
+            b.appendChild(a);
+            var c = document.getElementsByTagName("li");
+            var d = c[0];
+            d.parentNode.appendChild(b)
+
+        }
+        function chhen() {
+            var a = document.createTextNode(document.getElementById("t2").value);
+            var b = document.createElement(document.getElementById("t1").value);
+            b.appendChild(a);
+            var c = document.getElementsByTagName(document.getElementById("t1").value);
+            var d = c[0];
+            d.parentNode.appendChild(b)
+
+        }
+    </script>
+  </head>
+<body>
+<h1>This is My Heading</h1>
+<p>co-ordinate with the academic section to ensure that the necessary skills are imparted to students, arrange industry visits, invite business leaders and professionals to interact with students, and interface with alumni to identify emerging opportunities. 
+The culmination of these efforts is Placement Facilitation and Summer Internships. The objective of Placement Facilitation at Alliance is to provide opportunities to students in line</p>
+<ul>
+<li>Rama</li>
+<li>Gopal</li>
+<li>Rabi</li>
+<li>Shyam</li>
+</ul>
+<input type="button" value="ADD" onclick="return chhena()" /><br />
+Give tag Name :<input type="text" id="t1" /><br />
+Give tag Text:<input type="text" id="t2" /><br />
+<input type="button" value="Create" onclick="return chhen()" />
+</body>
+</html>

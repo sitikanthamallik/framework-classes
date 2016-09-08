@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<bookshop>
+  <book>
+    <bookid>B001</bookid>
+    <bookname>VB.NET For U</bookname>
+    <rate>$200</rate>
+    <author>
+      <firstname>Chakra</firstname>
+      <lastname>Mohanty</lastname>
+    </author>
+    <author>
+      <firstname>Harihar</firstname>
+      <lastname>Pattnaik</lastname>
+    </author>
+  </book>
+  <book>
+    <bookid>B002</bookid>
+    <bookname>C#.NET For Me</bookname>
+    <rate>$100</rate>
+    <author>
+      <firstname>Gourav</firstname>
+      <lastname>Bhai</lastname>
+    </author>
+  </book>
+</bookshop>
+
+

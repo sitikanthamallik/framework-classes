@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>My Test Exa</title>
+    <script language="javascript" type="text/javascript">
+        function bakra() {
+            var a = document.getElementsByTagName("h1");
+            var b = a[0];
+            b.parentNode.removeChild(b);
+
+        }
+        function bakri() {
+            var a = document.getElementsByTagName("li");
+            var b = a[document.getElementById("t1").value-1];
+            b.parentNode.removeChild(b);
+
+        }
+    </script>
+  </head>
+<body>
+<h1>This is My Heading</h1>
+<p>co-ordinate with the academic section to ensure that the necessary skills are imparted to students, arrange industry visits, invite business leaders and professionals to interact with students, and interface with alumni to identify emerging opportunities. 
+The culmination of these efforts is Placement Facilitation and Summer Internships. The objective of Placement Facilitation at Alliance is to provide opportunities to students in line</p>
+<ul>
+<li>Rama</li>
+<li>Gopal</li>
+<li>Rabi</li>
+<li>Shyam</li>
+</ul>
+<input type="button" value="DEL" onclick="return bakra()" /><br />
+Give LI No:<input type="text" id="t1" /><br />
+<input type="button" value="Del" onclick="return bakri()" />
+</body>
+</html>
